@@ -1,15 +1,55 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
-    <title>Practice</title>
-    <script src="script.js" defer></script>
-    <link rel='stylesheet' href="style.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Calculator</title>
 </head>
 
 <body>
-
+    <div class='container'>
+        <div class="calcBody">
+            <div class="head">
+                <input type="text" class="currentvalue" value="0" readonly />
+                <div class="previousvalue"></div>
+            </div>
+            <div class="extras">
+                <button class='clear' id="reZero">AC</button>
+                <button class='clearEntry' id="reZeroEntry">C</button>
+                <button class='mis' id="signChange" value="sign">+/-</button>
+                <button id='divide' class="operator" value="/">/</button>
+            </div>
+            <div class="operatorsAndNumbers">
+                <div class="numberRow">
+                    <button id='number1' class="number" value="1">1</button>
+                    <button id='number2' class="number" value="2">2</button>
+                    <button id='number3' class="number" value="3">3</button>
+                    <button id='multiply' class="operator" value="*">*</button>
+                </div>
+                <div class="numberRow">
+                    <button id='number4' class="number" value="4">4</button>
+                    <button id='number5' class="number" value="5">5</button>
+                    <button id='number6' class="number" value="6">6</button>
+                    <button id='addition' class="operator" value="+">+</button>
+                </div>
+                <div class="numberRow">
+                    <button id='number7' class="number " value="7">7</button>
+                    <button id='number8' class="number " value="8">8</button>
+                    <button id='number9' class="number " value="9">9</button>
+                    <button id='subtract' class="operator" value="-">-</button>
+                </div>
+                <div class="numberRow">
+                    <button id='number0' class="number" value="0">0</button>
+                    <button id='number.' class="number" value=".">.</button>
+                    <button id='outcome' class="equals" value="=">=</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
 </body>
 
 </html>

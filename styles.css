@@ -1,0 +1,129 @@
+    .head {
+        background-color: #e5fddc;
+        height: 70px;
+        width: 215px;
+        margin-bottom: 7px;
+        color: black;
+        display: flex;
+        align-items: flex-end;
+        justify-content: flex-start;
+        flex-direction: column;
+        font-weight: 200;
+        border-radius: 4px;
+        overflow: hidden;
+        justify-content: space-between;
+    }
+    
+    .currentvalue {
+        background-color: #e5fddc;
+        border-color: #e5fddc;
+        width: 210px;
+        word-wrap: break-word;
+    }
+    
+    .previousvalue {
+        word-wrap: break-word;
+        width: 210px
+    }
+    
+    .number {
+        width: 50px;
+        height: 60px;
+    }
+    
+    .operator {
+        width: 50px;
+        height: 60px;
+    }
+    
+    .mis {
+        width: 50px;
+        height: 60px;
+    }
+    
+    .operatorsAndNumbers {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .calcBody {
+        width: 220px;
+        background-color: black;
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 720px;
+    }
+    
+    #number0 {
+        width: 105px;
+    }
+    
+    .extras {
+        margin-bottom: 7px;
+    }
+    
+    .numberRow {
+        margin-bottom: 7px;
+    }
+    
+    .operator {
+        background-color: black;
+        border-color: orange;
+        color: white;
+        border-radius: 4px;
+    }
+    
+    .mis {
+        background-color: black;
+        border-color: aqua;
+        color: white;
+        border-radius: 4px;
+    }
+    
+    .number {
+        background-color: black;
+        border-color: aquamarine;
+        color: white;
+        border-radius: 4px;
+    }
+    
+    html {
+        background-image: linear-gradient(#330867, #30cfd0);
+        height: 1080px;
+    }
+    
+    .equals {
+        background-color: black;
+        border-color: orange;
+        color: white;
+        border-radius: 4px;
+        width: 50px;
+        height: 60px;
+    }
+    
+    .clear {
+        background-color: black;
+        border-color: aqua;
+        color: white;
+        border-radius: 4px;
+        width: 50px;
+        height: 60px;
+    }
+    
+    .clearEntry {
+        background-color: black;
+        border-color: aqua;
+        color: white;
+        border-radius: 4px;
+        width: 50px;
+        height: 60px;
+    }
